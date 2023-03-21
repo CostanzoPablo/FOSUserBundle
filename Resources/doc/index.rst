@@ -25,9 +25,11 @@ If you wish to use default texts provided in this bundle, you have to make
 sure you have translator enabled in your config.
 
 .. code-block:: yaml
-
-    # app/config/config.yml
-
+    # Symfony < 6
+      # app/config/config.yml
+    # Symfony >= 6
+      # config/packages/translation.yaml
+      
     framework:
         translator: ~
 
